@@ -51,7 +51,7 @@ const Properties = () => {
                     </p>
                     <p>
                       <FaDoorOpen />
-                      160 m2
+                      160 sq.m
                     </p>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const Properties = () => {
                     </p>
                     <p>
                       <FaDoorOpen />
-                      160 m2
+                      160 sq.m
                     </p>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ const Properties = () => {
                     </p>
                     <p>
                       <FaDoorOpen />
-                      160 m2
+                      160 sq.m
                     </p>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Properties = () => {
                     </p>
                     <p>
                       <FaDoorOpen />
-                      160 m2
+                      160 sq.m
                     </p>
                   </div>
                 </div>

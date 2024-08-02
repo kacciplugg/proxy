@@ -20,12 +20,12 @@ export const navLinks = [
     route: "/properties",
     links: [
       {
-        name: "Residential",
-        route: "/properties/residential",
-      },
-      {
         name: "Commercial",
         route: "properties/commercial",
+      },
+      {
+        name: "Residential",
+        route: "/properties/residential",
       },
     ],
   },
@@ -40,16 +40,16 @@ export const navLinks = [
     route: "/about",
     links: [
       {
+        name: "Services",
+        route: "/services",
+      },
+      {
         name: "About Us",
         route: "/about",
       },
       {
         name: "Contact Us",
         route: "/contact",
-      },
-      {
-        name: "Services",
-        route: "/services",
       },
     ],
   },
@@ -93,10 +93,10 @@ export const SearchBtns = [
     link: "properties/investmentsales",
   },
   {
-    id: "apartment",
-    name: "Apartment",
+    id: "residential",
+    name: "Residential",
     Icon: BsBuildings,
-    link: "properties/apartment",
+    link: "properties/residential",
   },
   {
     id: "resources",
