@@ -44,14 +44,16 @@ const Join = () => {
                   it. Join us today and transform your career!
                 </p>
               </div>
-              <button
-                className="grow4 bg-custom-gradient buttonhalf
+              <a href="/join">
+                <button
+                  className="grow4 bg-custom-gradient buttonhalf
                             md:text-[17px] ss:text-[16px] text-[14px] md:py-3.5
                             ss:py-3 py-3 md:px-24 ss:px-3 px-3 text-white 
                             md:rounded-[6px] ss:rounded-[3px] rounded-[3px] 
                             font-medium font-manier cursor-pointer">
-                Join Us
-              </button>
+                  Join Us
+                </button>
+              </a>
             </div>
           </motion.div>
         </motion.div>

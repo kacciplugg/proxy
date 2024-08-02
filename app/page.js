@@ -69,14 +69,16 @@ const Home = () => {
                 animationDelay: "1s",
                 animationFillMode: "forwards",
               }}>
-              <button
-                className="grow4 bg-custom-gradient border-none buttonhalf
+              <a href="/join">
+                <button
+                  className="grow4 bg-custom-gradient border-none buttonhalf
                   md:text-[18px] ss:text-[17px] text-[14px] md:py-3
                   ss:py-3 py-3 md:px-24 ss:px-7 px-3 text-white 
                   md:rounded-[6px] ss:rounded-[3px] rounded-[3px] 
                   font-medium cursor-pointer">
-                Join Us
-              </button>
+                  Join Us
+                </button>
+              </a>
             </div>
           </div>
 
@@ -90,7 +92,7 @@ const Home = () => {
           </motion.div>
         </div>
       </div>
-      <div className="mt-[-150px]">
+      <div className="mt-[-100px]">
         <SearchButtons />
       </div>
       <About />

@@ -685,3 +685,56 @@ li:hover .dropdown-content {
     line-height: 2rem;
   }
 }
+
+.aboutHeader h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.faqSection {
+  width: 100%;
+  margin-top: -50px;
+}
+
+.signInForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+}
+
+.signInFormInner {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.signInFields {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.signInField {
+  font-weight: 500;
+  input {
+    border: 0.5px solid #b5b5b5;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  select {
+    width: 230px;
+    border: 0.5px solid #b5b5b5;
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+}

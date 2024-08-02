@@ -95,12 +95,14 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <button
-          className="border-gradient border-[1px] grow4 justify-center 
-        hidden md:flex text-[16px] py-2.5 px-10 text-main rounded-md 
-        w-[20%]">
-          Sign In or Register
-        </button>
+          <button
+            className="border-gradient border-[1px] grow4 justify-center 
+            hidden md:flex text-[16px] py-2.5 px-10 text-main rounded-md 
+            w-[20%]">
+            <a href="/register">
+            Sign In or Register
+        </a>
+          </button>
 
         {/* FOR MOBILE */}
 
