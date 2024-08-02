@@ -18,14 +18,21 @@ const Home = () => {
           className="justify-center w-full mx-auto relative
           max-w-[86rem] flex">
           <div className="flex flex-col w-full justify-center">
+            <span
+              className="text-black md:text-[20px] ss:text-[20px] 
+              text-[20px] md:leading-[35px] fade-in-from-bottom
+              ss:leading-[35px] leading-[35px] mb-8 font-black tracking-tight">
+              proxy; noun /ˈprɑk·si/ the agency, office, person or function who
+              is given <br />
+              the authority or power to act for another.
+            </span>
             <h1
               className="text-black md:text-[82px] ss:text-[70px] 
               text-[52px] md:leading-[90px] fade-in-from-bottom
               ss:leading-[70px] leading-[55px] font-black tracking-tight">
-              proxy-{" "}
               <span className="text-custom-gradient">
                 <br className="ss:flex hidden"></br>
-                reinventing the{" "}
+                Reinventing the{" "}
               </span>{" "}
               <br className="ss:flex hidden"></br>
               real estate business.
@@ -41,11 +48,9 @@ const Home = () => {
                 animationDelay: "0.5s",
                 animationFillMode: "forwards",
               }}>
-              proxy noun /ˈprɑk·si/ the agency, office, person or function who
-              is given the authority or power to act for another.
-              <br />
-              <br /> Armed with two decades of industry wisdom, we are focused
-              on combining these insights with the prowess of modern technology,
+              {" "}
+              Armed with two decades of industry wisdom, we are focused on
+              combining these insights with the prowess of modern technology,
               delivering outcomes that not only meet but exceed your
               expectations.
             </p>
